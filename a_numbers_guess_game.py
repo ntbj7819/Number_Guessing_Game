@@ -27,12 +27,12 @@ print("You guessed correctly!")
 break
 
 # Game stats
-print(f"It took you \\\{len(guesses)\\\} chances to guess correctly!")
-print(f"Mean of guesses: \\\{round(statistics.mean(guesses))\\\}")
-print(f"Median of guesses: \\\{statistics.median(guesses)\\\}")
+print(f"It took you {len(guesses)} chances to guess correctly!")
+print(f"Mean of guesses: {round(statistics.mean(guesses))}")
+print(f"Median of guesses: {statistics.median(guesses)}")
 
 try:
-print(f"Mode of guesses: \\\{statistics.mode(guesses)\\\}")
+print(f"Mode of guesses: {statistics.mode(guesses)}")
 except statistics.StatisticsError:
 print("No single mode.")
 
@@ -47,7 +47,7 @@ break
 else:
 print("Please choose Y or N")
 
-# Start the first game\\\
+# Start the first game
 start_game()
 replay()
-\}}
+}}
